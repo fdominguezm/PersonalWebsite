@@ -58,43 +58,25 @@ long_title = "Francisco Dominguez"
 favicon = "/assets/images/profile.jpg"
 
 [extra.footer]
-source_code = "https://github.com/diogotcorreia/dtc-website"
+source_code = "https://github.com/fdominguezm/PersonalWebsite"
 
 [[extra.footer.socials]]
 name = "mail"
 label = "Email"
-value = "me@diogotc.com"
-link = "mailto:me@diogotc.com"
+value = "fdominguezmac@gmail.com"
+link = "mailto:fdominguezmac@gmail.com"
 [[extra.footer.socials]]
-name = "discord"
-label = "Discord"
-value = "diogocorreia"
-link = "https://discord.com/users/218721510649626635"
-[[extra.footer.socials]]
-name = "matrix"
-label = "Matrix"
-value = "@dtc:diogotc.com"
-link = "https://matrix.to/#/@dtc:diogotc.com"
-[[extra.footer.socials]]
-name = "mastodon"
-label = "Mastodon"
-value = "@dtc@masto.pt"
-link = "https://masto.pt/@dtc"
-[[extra.footer.socials]]
-name = "gpg"
-label = "GPG Key"
-value = "0x12CF31FDFF172B77"
-link = "https://gpg.diogotc.com"
+name = "linkedin"
+label = "LinkedIn"
+value = "Francisco Dominguez"
+link = "https://www.linkedin.com/in/francisco-dominguez-machado/"
 
 [[extra.links]]
 name = "Home"
 path = "/"
 [[extra.links]]
-name = "Blog"
-path = "/blog"
-[[extra.links]]
-name = "Impossible List"
-path = "/impossiblelist"
+name = "My Projects"
+path = "https://cv.diogotc.com"
 [[extra.links]]
 name = "CV"
 path = "https://cv.diogotc.com"
