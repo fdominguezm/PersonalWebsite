@@ -1,0 +1,217 @@
+
+
+[[projects]]
+name = "Cable A Tierra"
+icon = "/assets/images/cableatierra.png"
+link = "https://bitbucket.org/itba/pf-2024b-app-financistas/src/main/"
+calltoaction = "Visit Repository"
+background = "#0a74db"
+color = "#fff"
+description = """
+Cable A Tierra was my final university project, a beautiful way of closing that chapter. It is a social media crowdfunding web application that connects people who are starting a new project of any kind with potential investors. It was developed applying an agile metodology, using Java, Hibernate, React, a Postgres database AND was deployed using AWS Cloud Services.
+"""
+
+[[projects]]
+name = "Smart Prop"
+icon = "/assets/images/smartprop.svg"
+link = "https://bitbucket.org/itba/paw-2023a-09/src/master/"
+calltoaction = "Visit Repository"
+background = "#e91425"
+color = "#fff"
+description = """
+This was one of the most challenging web applications I ever developed. It is a building administration web application that shows expenses, amenities and a forum for the user (tenant) to interact with. It also includes a building administrator user view where it can manage all of the building's users interactions. An agile methodology was applied, it was developed with Java, Hibernate, a Postgres database, Vue at first and then migrated to React. Deployment was on a university server.
+"""
+
+[[projects]]
+name = "Neural Networks Projects"
+icon = "/assets/images/neural-network.svg"
+link = "https://github.com/gelewaut/sia"
+calltoaction = "Visit Repository"
+background = "#273377"
+color = "#fff"
+description = """
+This repository includes the projects that were developed in the Artifial Intelligence Systems course. They Include different variations of neural networks, the ways they obtained knowledge and applied it. It was one of the most interesting courses I took. Everyhting was coded in Python using its libraries.
+"""
+
+[[projects]]
+name = "Android Gym App"
+icon = "/assets/images/dumbbell.svg"
+link = "https://github.com/gelewaut/HCI_APP"
+calltoaction = "Visit Repository"
+background = "#434343"
+color = "#fff"
+description = """
+The first mobile app I developed. It was done focusing on the Human Computer Interaction, for the sole purpose of learning more about the User Experience. The app itself simulated an app a Gym would have, with exercises and timers. It was developed using Kotlin. 
+"""
+
+[[projects]]
+name = "Trees in Buenos Aires"
+icon = "/assets/images/trees.svg"
+link = "https://github.com/gelewaut/TPE-Final"
+calltoaction = "Visit Repository"
+background = "#0a74db"
+color = "#fff"
+description = """
+This was the first big project I developed. It was an analysis of csv data with C programming language to form objects (ADTs). Learning C as my first programming language made me get a low level point of view so almost every language I learnt after that was much easier.
+"""
+
+
+[[projects]]
+name = "Paint"
+icon = "/assets/images/paint.svg"
+link = "https://github.com/fdominguezm/TP-POO"
+calltoaction = "Visit Repository"
+background = "#e91425"
+color = "#fff"
+description = """
+An object-oriented project developed as a final project of the Object-Oriented Programming course. It was an application that copied some of the functionalities the Windows Paint has. Programmed in Java.
+"""
+
+
+
+[[projects]]
+name = "Mini OS"
+icon = "/assets/images/command-prompt.svg"
+link = "https://github.com/gelewaut/tp-arqui"
+calltoaction = "Visit Repository"
+background = "#273377"
+color = "#fff"
+description = """
+This project was the first operative system I have ever built. It was a difficult task but really fun as well. We built a Kernel, Image, Bootloader, Toolchain and a simple user interface. It was coded in C.
+"""
+
+[[projects]]
+name = "Plant Matching"
+icon = "/assets/images/plant-matching.svg"
+link = "https://github.com/lucasfleischer07/plant-matching"
+calltoaction = "Visit Repository"
+background = "#434343"
+color = "#fff"
+description = """
+A simple webapp to match plants from images. It also included a Mercado Pago (Payment) integration. Programmed in Java and Vue.
+"""
+
+
+[[projects]]
+name = "Continuation of the Mini OS"
+icon = "/assets/images/command-prompt.svg"
+link = "https://github.com/gelewaut/TP2_SO"
+calltoaction = "Visit Repository"
+background = "#0a74db"
+color = "#fff"
+description = """
+The course was Operative Systems, and this project was the continuation of the Mini OS built on the previous course (Computer's Arquitecture). We developed a more robust product of the OS, including new concepts like semaphores and pipes. Really interesting project, built in C.
+"""
+
+
+[[projects]]
+name = "Flex-Bison Compiler"
+icon = "/assets/images/analysis.svg"
+link = "https://github.com/fdominguezm/PROYECTO_TLA"
+calltoaction = "Visit Repository"
+background = "#e91425"
+color = "#fff"
+description = """
+A compiler built with flex-bison on C. It included gramatical, lexical and semantical analysis. It worked as a Javascript code analysis tool, compiled the code looking for errors and accepted or rejected the input.
+"""
+
+
+[[projects]]
+name = "Container Vessel Web App"
+icon = "/assets/images/container.svg"
+link = "https://github.com/fdominguezm/ContainerVesselSearchWebApp"
+calltoaction = "Visit Repository"
+background = "#273377"
+color = "#fff"
+description = """
+My first work project. The company asked me to do a container search webpage for our clients to track their containers and their status. Built with Node.js and deployed with Vercel. 
+"""
+
+[[projects]]
+name = "POP3 Server"
+icon = "/assets/images/mails.svg"
+link = "https://github.com/benjamindelasoie/pop3-protos"
+calltoaction = "Visit Repository"
+background = "#434343"
+color = "#fff"
+description = """
+POP3 server developed in C. It worked as a mail server, really hard project and tough to finish. Would not recommend building your own mail server, just hire a service!
+"""
+
+[[projects]]
+name = "Pseudo Random Function"
+icon = "/assets/images/random.svg"
+link = "https://github.com/fdominguezm/PRF"
+calltoaction = "Visit Repository"
+background = "#0a74db"
+color = "#fff"
+description = """
+A pseudo random function based on Ring-Learning with Errors problem. Input: Bit string Output: Pseudorandom polynomial. Built as a final project for the Cryptography course. Developed in Python.
+"""
+
+[[projects]]
+name = "Zokrates Battleship Game"
+icon = "/assets/images/battleship.svg"
+link = "https://github.com/andre-rebelo-teixeira/Scom"
+calltoaction = "Visit Repository"
+background = "#e91425"
+color = "#fff"
+description = """
+Project for the Security Communications course. We used Zokrates a zero-knowledge tool to form a system of players that played a battleship game with each other, without knowing anything about the other players. Developed in Python and Zokrates.
+"""
+
+[[projects]]
+name = "Client-Server Communicaions"
+icon = "/assets/images/container.svg"
+link = "https://github.com/gelewaut/tp2-pod"
+calltoaction = "Visit Repository"
+background = "#273377"
+color = "#fff"
+description = """
+Project for the Distributed Objects Programming course. Established 1-N server-client communications, gathered data and passed it through a Map Reduce system. Programmed in Java, using HazelCast and Map Reduce.
+"""
+
+[[projects]]
+name = "Gladiator Arena"
+icon = "/assets/images/colosseum.svg"
+link = "https://github.com/jmpalha/Gladiator-Arena"
+calltoaction = "Visit Repository"
+background = "#434343"
+color = "#fff"
+description = """
+Game developed in Unity using C#. It is a pixel-game battle between two gladiators inside the Colosseum of Ancient Rome. 
+"""
+
+[[projects]]
+name = "The eternaut game"
+icon = "/assets/images/gas.svg"
+link = "https://github.com/fdominguezm/Intro-A-Videojuegos"
+calltoaction = "Visit Repository"
+background = "#0a74db"
+color = "#fff"
+description = """
+Game based on the graphic novel "The Eternaut". There is snow falling from the sky and weird creatures trying to kill you in the night. Developed in Unity and C#.
+"""
+
+
+[[projects]]
+name = "Simulations of Physical Systems"
+icon = "/assets/images/physics.svg"
+link = "https://github.com/Selion11/Simulacion-De-Sistemas"
+calltoaction = "Visit Repository"
+background = "#e91425"
+color = "#fff"
+description = """
+Series of five projects that simulate physical systems. For example, how the behaviour of fluids when presented to other objects or the mass behaviour of a group of people trying to go through a small door. I loved this subject, it was really fun to think about these things and develop these projects. All coded in Java, graphs and simulations in Python.
+"""
+
+[[projects]]
+name = "ELK App"
+icon = "/assets/images/elasticsearch.svg"
+link = "https://github.com/Ian-Arnott/TPE-Redes"
+calltoaction = "Visit Repository"
+background = "#273377"
+color = "#fff"
+description = """
+Elastic Search and Kibana app for data analysis. Set up three servers (Postgres, HTTP, Linux) and a main server where the ELK Stack was at with Docker Compose. Great tool, also used Python.
+"""

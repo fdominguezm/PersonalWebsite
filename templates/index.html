@@ -18,14 +18,16 @@
 
 {{- macros_particles::particles_dom(style="position: fixed; inset: 0; z-index: -10;") }}
 <div class="splash">
-  {% set profile_picture = resize_image(path=page_data.profile_picture, width=150, height=150, op="fill", format="webp") %}
+  {% set profile_picture = resize_image(path=page_data.profile_picture, width=150, height=150, op="fill", format="webp")
+  %}
   <img class="profile-picture" src="{{ profile_picture.url }}" alt="Profile image of {{ page_data.name }}" />
   <h1>{{ page_data.name }}</h1>
   <h2>{{ page_data.subtitle }}</h2>
   <div class="socials">
     {% for social in page_data.socials %}
     <div class="has-tooltip">
-      <a href="{{ social.link | default(value='') }}" target="_blank" rel="noopener" data-umami-event="{{ social.name }}-social-hero">
+      <a href="{{ social.link | default(value='') }}" target="_blank" rel="noopener"
+        data-umami-event="{{ social.name }}-social-hero">
         {{ load_data(path=social.icon) | safe }}
       </a>
       <span class="tooltip" tip-position="bottom">{{ social.label }}</span>
@@ -39,8 +41,88 @@
 <div class="section" id="about-me">
   <div class="container">
     {{ page_data.about_me | striptags | markdown(inline=false) | safe }}
+
+    <!-- Download CV Button -->
+    <div style="text-align:center; margin-top:20px;">
+      <button id="download-cv-btn" class="cv-button">Download CV</button>
+    </div>
+
   </div>
 </div>
+
+
+
+<!-- Popup Overlay -->
+<div id="cv-popup-overlay" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.6); z-index:999;">
+  <div id="cv-popup"
+    style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);
+      background:white; padding:30px; border-radius:12px; max-width:300px; text-align:center; box-shadow:0 8px 20px rgba(0,0,0,0.3);">
+    <p style="margin-bottom:20px; color: black;">Which language do you the CV in?</p>
+    <button class="cv-button" onclick="downloadCV('english')" style="margin:5px;">English</button>
+    <button class="cv-button" onclick="downloadCV('spanish')" style="margin:5px;">Spanish</button>
+    <button class="cv-button cv-button-cancel" onclick="closePopup()" style="margin-top:15px;">Cancel</button>
+  </div>
+</div>
+
+<style>
+  .cv-button {
+    background-color: #003366;
+    /* Dark Blue */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .cv-button:hover {
+    background-color: #0055a5;
+    /* Lighter dark blue on hover */
+  }
+
+  .cv-button-cancel {
+    background-color: #666666;
+    /* Gray for cancel button */
+  }
+
+  .cv-button-cancel:hover {
+    background-color: #444444;
+  }
+</style>
+
+<script>
+  const cvBtn = document.getElementById('download-cv-btn');
+  const popupOverlay = document.getElementById('cv-popup-overlay');
+
+  cvBtn.addEventListener('click', () => {
+    popupOverlay.style.display = 'block';
+  });
+
+  function closePopup() {
+    popupOverlay.style.display = 'none';
+  }
+
+  function downloadCV(lang) {
+    let fileUrl = '';
+    if (lang === 'english') {
+      fileUrl = '/assets/cvs/CVFranciscoDominguez2025Eng.pdf';
+    } else if (lang === 'spanish') {
+      fileUrl = '/assets/cvs/CVFranciscoDominguez2025Cast.pdf';
+    }
+
+    const link = document.createElement('a');
+    link.href = fileUrl;
+    link.download = fileUrl.split('/').pop();
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+
+    closePopup();
+  }
+</script>
+
 
 {# portfolio #}
 
@@ -54,25 +136,25 @@
 
     <div class="top-projects">
       {% for top_project in page_data.top_projects %}
-        <div class="card" style="background-color: {{ top_project.background }}; color: {{ top_project.color }};">
-          <div class="card-content">
-            {%- if top_project.icon is matching("\.svg$") %}
-            <img src="{{ top_project.icon }}" alt="{{ top_project.name }}"/>
-            {%- else %}
-            {% set project_img = resize_image(path=top_project.icon, width=110, height=110, op="fill", format="webp") %}
-            <img src="{{ project_img.url }}" alt="{{ top_project.name }}"/>
-            {%- endif %}
-            <h4>{{ top_project.name }}</h4>
-            <div>
-              {{ top_project.description | striptags | markdown(inline=false) | safe }}
-            </div>
-          </div>
-          <div class="card-actions">
-            <a href="{{ top_project.link }}" target="_blank" rel="noopener" class="button">
-              {{ top_project.calltoaction }}
-            </a>
+      <div class="card" style="background-color: {{ top_project.background }}; color: {{ top_project.color }};">
+        <div class="card-content">
+          {%- if top_project.icon is matching("\.svg$") %}
+          <img src="{{ top_project.icon }}" alt="{{ top_project.name }}" />
+          {%- else %}
+          {% set project_img = resize_image(path=top_project.icon, width=110, height=110, op="fill", format="webp") %}
+          <img src="{{ project_img.url }}" alt="{{ top_project.name }}" />
+          {%- endif %}
+          <h4>{{ top_project.name }}</h4>
+          <div>
+            {{ top_project.description | striptags | markdown(inline=false) | safe }}
           </div>
         </div>
+        <div class="card-actions">
+          <a href="{{ top_project.link }}" target="_blank" rel="noopener" class="button">
+            {{ top_project.calltoaction }}
+          </a>
+        </div>
+      </div>
       {% endfor %}
     </div>
 
@@ -80,21 +162,22 @@
 
     <div class="timeline">
       {% for entry in page_data.timeline | reverse %}
-        <div class="timeline-element">
-          <span class="timeline-element-icon" style="background-color: {{ entry.background }}; color: {{ entry.foreground }};">
-            {{ load_data(path=entry.icon) | safe }}
-          </span>
-          <div class="timeline-element-content">
-            <h4>{{ entry.title }}</h4>
-            {% if entry.subtitle %}
-            <h5>{{ entry.subtitle }}</h5>
-            {% endif %}
-            <div>
-              {{ entry.content | striptags | markdown(inline=false) | safe }}
-            </div>
-            <span class="timeline-element-date">{{ entry.date }}</span>
+      <div class="timeline-element">
+        <span class="timeline-element-icon"
+          style="background-color: {{ entry.background }}; color: {{ entry.foreground }};">
+          {{ load_data(path=entry.icon) | safe }}
+        </span>
+        <div class="timeline-element-content">
+          <h4>{{ entry.title }}</h4>
+          {% if entry.subtitle %}
+          <h5>{{ entry.subtitle }}</h5>
+          {% endif %}
+          <div>
+            {{ entry.content | striptags | markdown(inline=false) | safe }}
           </div>
+          <span class="timeline-element-date">{{ entry.date }}</span>
         </div>
+      </div>
       {% endfor %}
     </div>
   </div>
