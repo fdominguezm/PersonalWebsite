@@ -50,7 +50,7 @@ calltoaction = "Visit Repository"
 background = "#0a74db"
 color = "#fff"
 description = """
-Cable A Tierra was my final university project, a beautiful way of closing that chapter. It is a social media crowdfunding web application that connects people who are starting a new project of any kind with potential investors. It was developed applying an agile metodology, using Java, Hibernate, React, a Postgres database AND was deployed using AWS Cloud Services.
+Cable A Tierra was my final university project, a beautiful way of closing that chapter. It is a social media crowdfunding web application that connects people who are starting a new project of any kind with potential investors. It was developed applying an agile methodology, using Java, Hibernate, React, a Postgres database and was deployed using AWS Cloud Services.
 """
 
 [[extra.top_projects]]
@@ -72,7 +72,7 @@ calltoaction = "Visit Repository"
 background = "#273377"
 color = "#fff"
 description = """
-This repository includes the projects that were developed in the Artifial Intelligence Systems course. They Include different variations of neural networks, the ways they obtained knowledge and applied it. It was one of the most interesting courses I took. Everyhting was coded in Python using its libraries.
+This repository includes the projects that were developed in the Artificial Intelligence Systems course. They include different variations of neural networks, the ways they obtained knowledge and applied it. It was one of the most interesting courses I took. Everything was coded in Python using its libraries.
 """
 
 [[extra.top_projects]]
@@ -83,7 +83,7 @@ calltoaction = "Visit Repository"
 background = "#434343"
 color = "#fff"
 description = """
-The first mobile app I developed. It was done focusing on the Human Computer Interaction, for the sole purpose of learning more about the User Experience. The app itself simulated an app a Gym would have, with exercises and timers. It was developed using Kotlin. 
+The first mobile app I developed. It was done focusing on the Human-Computer Interaction, for the sole purpose of learning more about the User Experience. The app itself simulated an app a Gym would use, with exercises and timers. It was developed using Kotlin. 
 """
 
 ############
@@ -98,7 +98,7 @@ icon = "/assets/images/university.svg"
 background = "#007396"
 foreground = "#fff"
 content = """
-On March 2019 I started the first four months of university preparation courses. These courses include Maths, Physics, Chemistry and Social Communication.
+On March 2019 I started the first four months of university preparation courses. These courses included Maths, Physics, Chemistry and Social Communication.
 """
 
 [[extra.timeline]]
@@ -109,7 +109,7 @@ icon = "/assets/images/university.svg"
 background = "#007396"
 foreground = "#fff"
 content = """
-Four months later, in July 2019 I took these courses' final exams and got in at ITBA (Instituto Tecnologico de Buenos Aires). Now it was time to start my carrer!
+Four months later, in July 2019 I took these courses' final exams and got in at ITBA (Instituto Tecnologico de Buenos Aires). Now it was time to start my career!
 """
 
 [[extra.timeline]]
@@ -149,7 +149,7 @@ icon = "/assets/images/portugal.svg"
 background = "#fff"
 foreground = "#000"
 content = """
-My experience in Lisbon was sadly over. It was without a doubt one of the most live changing experiences I have ever lived. Living alone and in a country I have never been to and did not speak the language was nerve racking and exciting. It made grow in ways I did not expect, and I returned to my lovely Argentina with a lot of experiences. Now I had to focus and finish my carreer...
+My experience in Lisbon was sadly over. It was without a doubt one of the most live changing experiences I have ever lived. Living alone and in a country I have never been to and did not speak the language was nerve racking and exciting. It made grow in ways I did not expect, and I returned to my lovely Argentina with a lot of experiences. Now I had to focus and finish my degree...
 """
 
 [[extra.timeline]]
@@ -160,7 +160,7 @@ icon = "/assets/images/university.svg"
 background = "#007396"
 foreground = "#fff"
 content = """
-After six years, I graduated as a Software Engineer at Itba. I felt so much happiness and accomplishment. It was my main goal for the last few years and I finally achieved it. The biggest lessons that I take from this is to never give up and that consistency is key to achieving your goals.
+After six years, I graduated as a Software Engineer at Itba. I felt so much happiness and accomplishment. It was my main goal for the last few years and I finally achieved it. The biggest lessons that I take from this are to never give up and that consistency is key to achieving your goals.
 """
 
 [[extra.timeline]]

@@ -57,7 +57,7 @@
   <div id="cv-popup"
     style="position:absolute; top:50%; left:50%; transform:translate(-50%, -50%);
       background:white; padding:30px; border-radius:12px; max-width:300px; text-align:center; box-shadow:0 8px 20px rgba(0,0,0,0.3);">
-    <p style="margin-bottom:20px; color: black;">Which language do you the CV in?</p>
+    <p style="margin-bottom:20px; color: black;">Which language do you want the CV in?</p>
     <button class="cv-button" onclick="downloadCV('english')" style="margin:5px;">English</button>
     <button class="cv-button" onclick="downloadCV('spanish')" style="margin:5px;">Spanish</button>
     <button class="cv-button cv-button-cancel" onclick="closePopup()" style="margin-top:15px;">Cancel</button>
@@ -157,6 +157,38 @@
       </div>
       {% endfor %}
     </div>
+
+    <!-- Go to My Projects Button -->
+    <div style="text-align:center; margin-top:20px;">
+      <button id="myprojects-btn" class="cv-button">See all My Projects</button>
+    </div>
+
+    <style>
+      .cv-button {
+        background-color: #003366;
+        /* Dark Blue */
+        color: white;
+        border: none;
+        padding: 12px 24px;
+        border-radius: 6px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+
+      .cv-button:hover {
+        background-color: #0055a5;
+        /* Lighter dark blue on hover */
+      }
+    </style>
+
+    <script>
+      const myProjectsBtn = document.getElementById('myprojects-btn');
+
+      myProjectsBtn.addEventListener('click', () => {
+        window.location.href = '/my-projects/';
+      });
+    </script>
 
     <h3>Timeline</h3>
 

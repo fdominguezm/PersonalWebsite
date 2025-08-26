@@ -8,7 +8,7 @@ calltoaction = "Visit Repository"
 background = "#0a74db"
 color = "#fff"
 description = """
-Cable A Tierra was my final university project, a beautiful way of closing that chapter. It is a social media crowdfunding web application that connects people who are starting a new project of any kind with potential investors. It was developed applying an agile metodology, using Java, Hibernate, React, a Postgres database AND was deployed using AWS Cloud Services.
+Cable A Tierra was my final university project, a beautiful way of closing that chapter. It is a social media crowdfunding web application that connects people who are starting a new project of any kind with potential investors. It was developed applying an agile methodology, using Java, Hibernate, React, a Postgres database and was deployed using AWS Cloud Services.
 """
 
 [[projects]]
@@ -19,7 +19,7 @@ calltoaction = "Visit Repository"
 background = "#e91425"
 color = "#fff"
 description = """
-This was one of the most challenging web applications I ever developed. It is a building administration web application that shows expenses, amenities and a forum for the user (tenant) to interact with. It also includes a building administrator user view where it can manage all of the building's users interactions. An agile methodology was applied, it was developed with Java, Hibernate, a Postgres database, Vue at first and then migrated to React. Deployment was on a university server.
+This was one of the most challenging web applications I ever developed. It is a building administration web application that shows expenses, amenities and a forum for the user (tenant) to interact with. It also includes a building administrator user view where it can manage all building's users interactions. An agile methodology was applied, it was developed with Java, Hibernate, a Postgres database, Vue at first and then migrated to React. Deployment was on a university server.
 """
 
 [[projects]]
@@ -30,7 +30,7 @@ calltoaction = "Visit Repository"
 background = "#273377"
 color = "#fff"
 description = """
-This repository includes the projects that were developed in the Artifial Intelligence Systems course. They Include different variations of neural networks, the ways they obtained knowledge and applied it. It was one of the most interesting courses I took. Everyhting was coded in Python using its libraries.
+This repository includes the projects that were developed in the Artificial Intelligence Systems course. These include different variations of neural networks, the ways they obtained knowledge and applied it. It was one of the most interesting courses I took. Everything was coded in Python using its libraries.
 """
 
 [[projects]]
@@ -41,7 +41,7 @@ calltoaction = "Visit Repository"
 background = "#434343"
 color = "#fff"
 description = """
-The first mobile app I developed. It was done focusing on the Human Computer Interaction, for the sole purpose of learning more about the User Experience. The app itself simulated an app a Gym would have, with exercises and timers. It was developed using Kotlin. 
+The first mobile app I developed. It was done focusing on the Human-Computer Interaction, for the sole purpose of learning more about the User Experience. The app itself simulated an app a Gym would use, with exercises and timers. It was developed using Kotlin. 
 """
 
 [[projects]]
@@ -52,7 +52,7 @@ calltoaction = "Visit Repository"
 background = "#0a74db"
 color = "#fff"
 description = """
-This was the first big project I developed. It was an analysis of csv data with C programming language to form objects (ADTs). Learning C as my first programming language made me get a low level point of view so almost every language I learnt after that was much easier.
+This was the first big project I developed. It was an analysis of CSV data with C programming language to form objects (ADTs). Learning C as my first programming language gave me a low level point of view so almost every language I learned after that was much easier.
 """
 
 
@@ -64,7 +64,7 @@ calltoaction = "Visit Repository"
 background = "#e91425"
 color = "#fff"
 description = """
-An object-oriented project developed as a final project of the Object-Oriented Programming course. It was an application that copied some of the functionalities the Windows Paint has. Programmed in Java.
+An object-oriented project developed as a final project of the Object-Oriented Programming course. It was an application that replicated some of the functionalities the Windows Paint has. Programmed in Java.
 """
 
 
@@ -77,7 +77,7 @@ calltoaction = "Visit Repository"
 background = "#273377"
 color = "#fff"
 description = """
-This project was the first operative system I have ever built. It was a difficult task but really fun as well. We built a Kernel, Image, Bootloader, Toolchain and a simple user interface. It was coded in C.
+This project was the first operating system I have ever built. It was a difficult task but really fun as well. We built a kernel, image, bootloader, toolchain and a simple user interface. It was coded in C.
 """
 
 [[projects]]
@@ -100,7 +100,7 @@ calltoaction = "Visit Repository"
 background = "#0a74db"
 color = "#fff"
 description = """
-The course was Operative Systems, and this project was the continuation of the Mini OS built on the previous course (Computer's Arquitecture). We developed a more robust product of the OS, including new concepts like semaphores and pipes. Really interesting project, built in C.
+The course was Operating Systems, and this project was the continuation of the Mini OS built on the previous course (Computer Architecture). We developed a more robust product of the OS, including new concepts like semaphores and pipes. It was a really interesting project, built in C.
 """
 
 
@@ -112,7 +112,7 @@ calltoaction = "Visit Repository"
 background = "#e91425"
 color = "#fff"
 description = """
-A compiler built with flex-bison on C. It included gramatical, lexical and semantical analysis. It worked as a Javascript code analysis tool, compiled the code looking for errors and accepted or rejected the input.
+A compiler built with flex-bison in C. It included grammatical, lexical and semantic analysis. It worked as a Javascript code analysis tool, scanned the code looking for errors and accepted or rejected the input.
 """
 
 
@@ -124,7 +124,7 @@ calltoaction = "Visit Repository"
 background = "#273377"
 color = "#fff"
 description = """
-My first work project. The company asked me to do a container search webpage for our clients to track their containers and their status. Built with Node.js and deployed with Vercel. 
+My first work project. The company asked me to build a container search webpage for our clients to track their containers and their status. Built with Node.js and deployed with Vercel. 
 """
 
 [[projects]]
@@ -135,7 +135,7 @@ calltoaction = "Visit Repository"
 background = "#434343"
 color = "#fff"
 description = """
-POP3 server developed in C. It worked as a mail server, really hard project and tough to finish. Would not recommend building your own mail server, just hire a service!
+POP3 server developed in C. It worked as a mail server, a really difficult project to finish. Would not recommend building your own mail server, just hire a service!
 """
 
 [[projects]]
@@ -146,7 +146,7 @@ calltoaction = "Visit Repository"
 background = "#0a74db"
 color = "#fff"
 description = """
-A pseudo random function based on Ring-Learning with Errors problem. Input: Bit string Output: Pseudorandom polynomial. Built as a final project for the Cryptography course. Developed in Python.
+A pseudo random function based on the Ring Learning With Errors (RLWE) problem. Input: bit string Output: pseudorandom polynomial. Built as a final project for the Cryptography course. Developed in Python.
 """
 
 [[projects]]
@@ -157,11 +157,11 @@ calltoaction = "Visit Repository"
 background = "#e91425"
 color = "#fff"
 description = """
-Project for the Security Communications course. We used Zokrates a zero-knowledge tool to form a system of players that played a battleship game with each other, without knowing anything about the other players. Developed in Python and Zokrates.
+Project for the Security Communications course. We used Zokrates, a zero-knowledge tool, to build a system where players could play a battleship game with each other, without knowing anything about the other players. Developed in Python and Zokrates.
 """
 
 [[projects]]
-name = "Client-Server Communicaions"
+name = "Client-Server Communications"
 icon = "/assets/images/container.svg"
 link = "https://github.com/gelewaut/tp2-pod"
 calltoaction = "Visit Repository"
@@ -179,18 +179,18 @@ calltoaction = "Visit Repository"
 background = "#434343"
 color = "#fff"
 description = """
-Game developed in Unity using C#. It is a pixel-game battle between two gladiators inside the Colosseum of Ancient Rome. 
+Game developed in Unity using C#. It is a pixel-art game battle between two gladiators inside the Colosseum of Ancient Rome. 
 """
 
 [[projects]]
-name = "The eternaut game"
+name = "The Eternaut game"
 icon = "/assets/images/gas.svg"
 link = "https://github.com/fdominguezm/Intro-A-Videojuegos"
 calltoaction = "Visit Repository"
 background = "#0a74db"
 color = "#fff"
 description = """
-Game based on the graphic novel "The Eternaut". There is snow falling from the sky and weird creatures trying to kill you in the night. Developed in Unity and C#.
+Game based on the graphic novel "The Eternaut". Weird snow falls from the sky while strange creatures try to kill you at night.. Developed in Unity and C#.
 """
 
 
@@ -202,7 +202,7 @@ calltoaction = "Visit Repository"
 background = "#e91425"
 color = "#fff"
 description = """
-Series of five projects that simulate physical systems. For example, how the behaviour of fluids when presented to other objects or the mass behaviour of a group of people trying to go through a small door. I loved this subject, it was really fun to think about these things and develop these projects. All coded in Java, graphs and simulations in Python.
+Series of five projects that simulate physical systems. For example, how the behaviour of fluids interacting with other objects or the collective behaviour of a group of people trying to go through a small door. I loved this subject, it was really fun to think about these things and develop these projects. All coded in Java, graphs and simulations in Python.
 """
 
 [[projects]]
@@ -213,5 +213,5 @@ calltoaction = "Visit Repository"
 background = "#273377"
 color = "#fff"
 description = """
-Elastic Search and Kibana app for data analysis. Set up three servers (Postgres, HTTP, Linux) and a main server where the ELK Stack was at with Docker Compose. Great tool, also used Python.
+Elasticsearch and Kibana app for data analysis. Set up three servers (Postgres, HTTP, Linux) and a main server where the ELK Stack was set up with Docker Compose. Great tool, also used Python.
 """
