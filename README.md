@@ -1,7 +1,7 @@
 # Francisco Dominguez's Personal Website
 
 
-You can find a live version at [diogotc.com](https://diogotc.com).
+You can find a live version [here](https://franciscodominguez.netlify.app/).
 
 ## Frameworks and packages used
 

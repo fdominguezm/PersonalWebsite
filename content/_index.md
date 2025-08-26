@@ -66,7 +66,7 @@ This was one of the most challenging web applications I ever developed. It is a 
 
 [[extra.top_projects]]
 name = "Neural Networks Projects"
-icon = "/assets/images/neural-network.png"
+icon = "/assets/images/neural-network.svg"
 link = "https://github.com/gelewaut/sia"
 calltoaction = "Visit Repository"
 background = "#273377"
@@ -77,7 +77,7 @@ This repository includes the projects that were developed in the Artifial Intell
 
 [[extra.top_projects]]
 name = "Android Gym App"
-icon = "/assets/images/dumbbell.png"
+icon = "/assets/images/dumbbell.svg"
 link = "https://github.com/gelewaut/HCI_APP"
 calltoaction = "Visit Repository"
 background = "#434343"
