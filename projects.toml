@@ -3,7 +3,7 @@
 [[projects]]
 name = "Cable A Tierra"
 icon = "/assets/images/cableatierra.png"
-link = "https://bitbucket.org/itba/pf-2024b-app-financistas/src/main/"
+link = "https://github.com/fdominguezm/CableATierra"
 calltoaction = "Visit Repository"
 background = "#0a74db"
 color = "#fff"
@@ -14,7 +14,7 @@ Cable A Tierra was my final university project, a beautiful way of closing that 
 [[projects]]
 name = "Smart Prop"
 icon = "/assets/images/smartprop.svg"
-link = "https://bitbucket.org/itba/paw-2023a-09/src/master/"
+link = "https://github.com/fdominguezm/SmartProp"
 calltoaction = "Visit Repository"
 background = "#e91425"
 color = "#fff"

@@ -45,7 +45,7 @@ link = "https://bitbucket.org/itba/workspace/repositories/"
 [[extra.top_projects]]
 name = "Cable A Tierra"
 icon = "/assets/images/cableatierra.png"
-link = "https://bitbucket.org/itba/pf-2024b-app-financistas/src/main/"
+link = "https://github.com/fdominguezm/CableATierra"
 calltoaction = "Visit Repository"
 background = "#0a74db"
 color = "#fff"
@@ -56,7 +56,7 @@ Cable A Tierra was my final university project, a beautiful way of closing that 
 [[extra.top_projects]]
 name = "Smart Prop"
 icon = "/assets/images/smartprop.svg"
-link = "https://bitbucket.org/itba/paw-2023a-09/src/master/"
+link = "https://github.com/fdominguezm/SmartProp"
 calltoaction = "Visit Repository"
 background = "#e91425"
 color = "#fff"
@@ -89,67 +89,15 @@ The first mobile app I developed. It was done focusing on the Human-Computer Int
 ############
 # TIMELINE #
 ############
-
 [[extra.timeline]]
-title = "How it all started..."
+title = "Now what's next?"
 subtitle = ""
-date = "March - 2019"
-icon = "/assets/images/university.svg"
-background = "#007396"
-foreground = "#fff"
+date = ""
+icon = "/assets/images/question.svg"
+background = "#e91425"
+foreground = "#e91425"
 content = """
-On March 2019 I started the first four months of university preparation courses. These courses included Maths, Physics, Chemistry and Social Communication.
-"""
-
-[[extra.timeline]]
-title = "Got in!"
-subtitle = ""
-date = "July - 2019"
-icon = "/assets/images/university.svg"
-background = "#007396"
-foreground = "#fff"
-content = """
-Four months later, in July 2019 I took these courses' final exams and got in at ITBA (Instituto Tecnologico de Buenos Aires). Now it was time to start my career!
-"""
-
-[[extra.timeline]]
-title = "My first job"
-date = "February 2023"
-icon = "/assets/images/job.svg"
-background = "#36b030"
-foreground = "#fff"
-content = """
-I started my first position as an IT Department Consultant at Seald Sweet. 
-"""
-
-[[extra.timeline]]
-title = "Finished my first job"
-date = "August 2023"
-icon = "/assets/images/job.svg"
-background = "#36b030"
-foreground = "#fff"
-content = """
-After six months, the internship was over and I was then a much better professional. I worked on SQL Database, queries, Power BI Dashboards and buiilding solutions with applications.  For examples this [app](https://github.com/fdominguezm/ContainerVesselSearchWebApp).
-"""
-
-[[extra.timeline]]
-title = "Student Exchange"
-date = "February 2024"
-icon = "/assets/images/portugal.svg"
-background = "#fff"
-foreground = "#000"
-content = """
-Started my exchange at the IST (Instito Superior Tecnico) of Lisbon. I was so motivated and excited to live and study at another country. I knew this experience would make grow as a person and a professional.
-"""
-
-[[extra.timeline]]
-title = "Student Exchange"
-date = "July 2024"
-icon = "/assets/images/portugal.svg"
-background = "#fff"
-foreground = "#000"
-content = """
-My experience in Lisbon was sadly over. It was without a doubt one of the most live changing experiences I have ever lived. Living alone and in a country I have never been to and did not speak the language was nerve racking and exciting. It made grow in ways I did not expect, and I returned to my lovely Argentina with a lot of experiences. Now I had to focus and finish my degree...
+I have achieved my biggest goal yet, and now the fun part begins, applying everything I learnt in the last few years. The future is a scary but exciting thing, let's see what happens next!
 """
 
 [[extra.timeline]]
@@ -164,14 +112,65 @@ After six years, I graduated as a Software Engineer at Itba. I felt so much happ
 """
 
 [[extra.timeline]]
-title = "Now what's next?"
-subtitle = ""
-date = ""
-icon = "/assets/images/question.svg"
-background = "#e91425"
-foreground = "#e91425"
+title = "Student Exchange"
+date = "July 2024"
+icon = "/assets/images/portugal.svg"
+background = "#fff"
+foreground = "#000"
 content = """
-I have achieved my biggest goal yet, and now the fun part begins, applying everything I learnt in the last few years. The future is a scary but exciting thing, let's see what happens next!
+My experience in Lisbon was sadly over. It was without a doubt one of the most live changing experiences I have ever lived. Living alone and in a country I have never been to and did not speak the language was nerve racking and exciting. It made grow in ways I did not expect, and I returned to my lovely Argentina with a lot of experiences. Now I had to focus and finish my degree...
+"""
+
+[[extra.timeline]]
+title = "Student Exchange"
+date = "February 2024"
+icon = "/assets/images/portugal.svg"
+background = "#fff"
+foreground = "#000"
+content = """
+Started my exchange at the IST (Instito Superior Tecnico) of Lisbon. I was so motivated and excited to live and study at another country. I knew this experience would make grow as a person and a professional.
+"""
+
+[[extra.timeline]]
+title = "Finished my first job"
+date = "August 2023"
+icon = "/assets/images/job.svg"
+background = "#36b030"
+foreground = "#fff"
+content = """
+After six months, the internship was over and I was then a much better professional. I worked on SQL Database, queries, Power BI Dashboards and buiilding solutions with applications.  For examples this [app](https://github.com/fdominguezm/ContainerVesselSearchWebApp).
+"""
+
+[[extra.timeline]]
+title = "My first job"
+date = "February 2023"
+icon = "/assets/images/job.svg"
+background = "#36b030"
+foreground = "#fff"
+content = """
+I started my first position as an IT Department Consultant at Seald Sweet. 
+"""
+
+[[extra.timeline]]
+title = "Got in!"
+subtitle = ""
+date = "July - 2019"
+icon = "/assets/images/university.svg"
+background = "#007396"
+foreground = "#fff"
+content = """
+Four months later, in July 2019 I took these courses' final exams and got in at ITBA (Instituto Tecnologico de Buenos Aires). Now it was time to start my career!
+"""
+
+[[extra.timeline]]
+title = "How it all started..."
+subtitle = ""
+date = "March - 2019"
+icon = "/assets/images/university.svg"
+background = "#007396"
+foreground = "#fff"
+content = """
+On March 2019 I started the first four months of university preparation courses. These courses included Maths, Physics, Chemistry and Social Communication.
 """
 
 +++
