@@ -127,12 +127,11 @@
 {# portfolio #}
 
 <div class="section-title" id="portfolio">
-  <h2>Portfolio</h2>
+  <h2>My Top Projects</h2>
 </div>
 
 <div class="section">
   <div class="container">
-    <h3>My top projects</h3>
 
     <div class="top-projects">
       {% for top_project in page_data.top_projects %}
@@ -190,7 +189,16 @@
       });
     </script>
 
-    <h3>Timeline</h3>
+
+  </div>
+</div>
+
+<div class="section-title" id="portfolio">
+  <h2>Timeline</h2>
+</div>
+
+<div class="section">
+  <div class="container">
 
     <div class="timeline">
       {% for entry in page_data.timeline | reverse %}
