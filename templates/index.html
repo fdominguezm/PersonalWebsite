@@ -126,6 +126,25 @@
 
 {# portfolio #}
 
+<style>
+
+
+    .top-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem; /* space between cards */
+    align-items: stretch; /* make children same height */
+  }
+
+.top-projects .card {
+  height: 550px; /* or whatever fits your content */
+}
+
+  .top-projects .card .card-content {
+    flex: 1; /* take remaining height */
+  }
+</style>
+
 <div class="section-title" id="portfolio">
   <h2>My Top Projects</h2>
 </div>
