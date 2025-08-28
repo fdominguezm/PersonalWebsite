@@ -32,11 +32,6 @@ icon = "/assets/icons/linkedin-in-brands-solid.svg"
 label = "Linked In"
 link = "https://www.linkedin.com/in/francisco-dominguez-machado/"
 
-[[extra.socials]]
-name = "bitbucket"
-icon = "/assets/icons/bitbucket.svg"
-label = "Bit Bucket"
-link = "https://bitbucket.org/itba/workspace/repositories/"
 
 ################
 # TOP PROJECTS #
