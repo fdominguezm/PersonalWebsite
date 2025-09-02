@@ -10,34 +10,49 @@
 {{ super() }}
 <link rel="stylesheet" href="{{ get_url(path='/homepage.css', trailing_slash=false, cachebust=true) }}" />
 <style>
-  /* Force navbar always black on this page */
   nav {
-    background-color: #000 !important;
+    background: transparent;
+    transition: background-color 0.3s ease;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
   }
+
+  nav.navbar--scrolled {
+    background-color: #000;
+  }
+
   nav a,
   nav h1 a {
-    color: #fff !important;
+    color: #fff;
+    /* works fine on both transparent and black */
   }
+
 
   /* Center the title */
   .container h1 {
     text-align: center;
-    margin-bottom: 2rem; /* adds spacing below the title */
+    margin-bottom: 2rem;
+    /* adds spacing below the title */
   }
 
-    .top-projects {
+  .top-projects {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem; /* space between cards */
-    align-items: stretch; /* make children same height */
+    gap: 1.5rem;
+    /* space between cards */
+    align-items: stretch;
+    /* make children same height */
   }
 
-.top-projects .card {
-  height: 550px; /* or whatever fits your content */
-}
+  .top-projects .card {
+    height: 550px;
+    /* or whatever fits your content */
+  }
 
   .top-projects .card .card-content {
-    flex: 1; /* take remaining height */
+    flex: 1;
+    /* take remaining height */
   }
 </style>
 
@@ -49,32 +64,34 @@
 
 {{- macros_particles::particles_dom(style="position: fixed; inset: 0; z-index: -10;") }}
 
+<div class="section-title" id="portfolio">
+  <h2>My Projects</h2>
+</div>
+
 <div class="section">
   <div class="container">
-    <h1>My Projects</h1>
-
     <div class="top-projects">
       {% set data = load_data(path="projects.toml") %}
       {% for project in data.projects %}
-        <div class="card" style="background-color: {{ project.background }}; color: {{ project.color }};">
-          <div class="card-content">
-            {%- if project.icon is matching("\.svg$") %}
-              <img src="{{ project.icon }}" alt="{{ project.name }}"/>
-            {%- else %}
-              {% set project_img = resize_image(path=project.icon, width=110, height=110, op="fill", format="webp") %}
-              <img src="{{ project_img.url }}" alt="{{ project.name }}"/>
-            {%- endif %}
-            <h4>{{ project.name }}</h4>
-            <div>
-              {{ project.description | striptags | markdown(inline=false) | safe }}
-            </div>
-          </div>
-          <div class="card-actions">
-            <a href="{{ project.link }}" target="_blank" rel="noopener" class="button">
-              {{ project.calltoaction }}
-            </a>
+      <div class="card" style="background-color: {{ project.background }}; color: {{ project.color }};">
+        <div class="card-content">
+          {%- if project.icon is matching("\.svg$") %}
+          <img src="{{ project.icon }}" alt="{{ project.name }}" />
+          {%- else %}
+          {% set project_img = resize_image(path=project.icon, width=110, height=110, op="fill", format="webp") %}
+          <img src="{{ project_img.url }}" alt="{{ project.name }}" />
+          {%- endif %}
+          <h4>{{ project.name }}</h4>
+          <div>
+            {{ project.description | striptags | markdown(inline=false) | safe }}
           </div>
         </div>
+        <div class="card-actions">
+          <a href="{{ project.link }}" target="_blank" rel="noopener" class="button">
+            {{ project.calltoaction }}
+          </a>
+        </div>
+      </div>
       {% endfor %}
     </div>
   </div>
@@ -87,9 +104,18 @@
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const navbar = document.querySelector("nav");
-    // Disable the IntersectionObserver effect
-    navbar.classList.add("navbar--sticky");
-    navbar.classList.add("navbar--force"); 
+
+    function updateNavbar() {
+      if (window.scrollY > 30) {
+        navbar.classList.add("navbar--scrolled");
+      } else {
+        navbar.classList.remove("navbar--scrolled");
+      }
+    }
+
+    updateNavbar(); // run on load
+    window.addEventListener("scroll", updateNavbar);
   });
+
 </script>
 {% endblock scripts %}
